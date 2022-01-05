@@ -11,12 +11,17 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
-    margin: 10px
+    margin: 10px;
 }
 
+.box h2 {
+    font-size: 45px;
+
+}
 .box {
     background-color: steelblue;
     color: white;
@@ -34,9 +39,11 @@ h1 {
 
  /* This is a sudo selector, it will  pick every even box so we can make them go the other direction  */ 
 .box:nth-of-type(even) {
-    transform: translateX(-200%)
+    transform: translateX(-200%);
 
 }
+
 .box.show {
-    transform: translateX(0)
+    transform: translateX(0);
 }
+
