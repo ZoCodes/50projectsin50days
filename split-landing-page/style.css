@@ -5,7 +5,8 @@
     --right-bg-color: rgba(43, 43, 43, 0.8);
     --left-btn-hover-color: rgba(87, 84, 236, 0.1);
     --right-btn-hover-color: rgba(28, 122, 28, 0.1);
-
+    --hover-width: 75%;
+    --other-width: 24%;
 }
 
 * {
@@ -100,4 +101,20 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: var(--right-bg-color);
+}
+
+.hover-left .left{
+    width: var(--hover-width);
+}
+
+.hover-left .right{
+    width: var(--other-width);
+}
+
+.hover-right .right{
+    width: var(--hover-width);
+}
+
+.hover-righ .left{
+    width: var(--other-width);
 }
