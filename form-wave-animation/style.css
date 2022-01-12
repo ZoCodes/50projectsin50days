@@ -75,6 +75,7 @@ body {
 
 .form-control input:focus, .form-control input:valid {
     outline: 0;
+    border-bottom-color: lightblue;
 }
 
 .form-control label {
@@ -82,3 +83,17 @@ body {
     top: 15px;
     left: 0;
 }
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+}
+
+.form-control input:focus + label span, .form-control input:valid + label span {
+    color: lightblue;
+    /* need a negative number to move up the Y axis, would be normal to go down */
+    transform: translateY(-30px)
+
+}
+
