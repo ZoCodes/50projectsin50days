@@ -75,4 +75,4 @@ const testimonials = [
     }
   }
 
-  updateTestimonial()
+setInterval(updateTestimonial, 10000)

@@ -34,11 +34,11 @@ body {
 }
 
 .fa-quote-right {
-    left: 40px;
+    right: 40px;
 }
 
 .fa-quote-left {
-    right: 40px;
+    left: 40px;
 }
 
 .testimonial {
